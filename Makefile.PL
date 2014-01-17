@@ -10,6 +10,7 @@ WriteMakefile(
 		App::ProxyHunter:: => 0.01,
 		DBD::SQLite::      => 0
 	},
+	BUILD_REQUIRES     => { 'Test::More' => 0.88 },
 	CONFIGURE_REQUIRES => {
 		'ExtUtils::MakeMaker' => 6.52,
 	},

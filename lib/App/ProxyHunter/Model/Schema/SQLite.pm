@@ -7,6 +7,8 @@ use App::ProxyHunter::Constants;
 use App::ProxyHunter::Model::SchemaUtils qw'proxy_name_to_type proxy_type_to_name';
 extends 'App::ProxyHunter::Model::Schema';
 
+our $VERSION = '0.01';
+
 sub perl_datetime_to_sql {
 	return unless defined $_[0];
 	$_[0]->epoch;
