@@ -48,6 +48,34 @@ table {
 
 1;
 
+=pod
+
+=head1 NAME
+
+App::ProxyHunter::Schema::Model::mysql - SQLite schema for App::ProxyHunter
+
+=head1 SYNOPSIS
+
+	# just edit proxyhunter's config
+	db = {
+		driver: "SQLite"
+	}
+
+=head1 SEE ALSO
+
+L<App::ProxyHunter>
+
+=head1 AUTHOR
+
+Oleg G, E<lt>oleg@cpan.orgE<gt>
+
+=head1 COPYRIGHT AND LICENSE
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself
+
+=cut
+
 __DATA__
 CREATE TABLE "proxy" (
     "id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
