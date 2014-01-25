@@ -63,6 +63,10 @@ App::ProxyHunter::Schema::Model::mysql - SQLite schema for App::ProxyHunter
 		driver: "SQLite"
 	}
 
+=head1 DESCRIPTION
+
+Use C<proxyhunter --create-schema> to create database and tables structure
+
 =head1 SEE ALSO
 
 L<App::ProxyHunter>
